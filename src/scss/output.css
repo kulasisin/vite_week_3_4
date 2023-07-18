@@ -1382,9 +1382,9 @@ html {
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-html * {
+/* html * {
   outline: 1px solid red;
-}
+} */
 
 .container {
   max-width: 100%;
@@ -1405,7 +1405,6 @@ html * {
     padding-right: 12px;
   }
 }
-
 
 .glass-style li {
   border-bottom: 8px solid transparent;
@@ -1428,8 +1427,6 @@ html * {
   background-color: black;
   color: white;
 }
-
-
 
 @media (min-width: 365px) {
   .md\:container {
