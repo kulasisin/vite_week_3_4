@@ -13,6 +13,12 @@
   }
 }
 
+.shops-list > li {
+  @include desktop() {
+    width: 32%;
+  }
+}
+
 .shops-list ul {
   padding: 16px;
 }
