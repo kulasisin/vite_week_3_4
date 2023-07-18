@@ -1,0 +1,41 @@
+.logo {
+  width: 80px;
+}
+
+a:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.banner {
+  background-image: url("../img/desktop/home-header.png");
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+}
+
+.shop-photo {
+  background-image: url("../img/desktop/storepage-1.png");
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+}
+
+.intro img {
+  width: 100px;
+}
+
+.glass-intro img {
+  width: 100%;
+}
+
+.co-branding {
+  background-image: url("../img/desktop/background-desktop.png");
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}

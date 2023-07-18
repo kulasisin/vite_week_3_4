@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  html {
+    font-family: "Roboto", "Noto Sans TC", system-ui, sans-serif;
+  }
+}
+
+html * {
+  outline: 1px solid red;
+}
+.logo {
+  width: 80px;
+}
+
+a:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+
+.banner {
+  background-image: url("../src/img/desktop/home-header.png");
+  height: 787px;
+  background-position: center;
+  background-size: cover;
+}
+
+.intro img {
+  width: 100px;
+}
+
+.intro li {
+  width: 23%;
+}
+.glass-intro li {
+  width: 31%;
+}
+.glass-intro img {
+  width: 100%;
+}
+
+.co-branding {
+  background-image: url("../src/img/desktop/background-desktop.png");
+
+  background-position: center;
+  background-size: cover;
+}
+
+.review li {
+  width: 23%;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+.glass-style li {
+  border-bottom: 8px solid transparent;
+}
+.glass-style .current {
+  border-bottom: 8px solid #aa0601;
+}
+.glass-style li:hover {
+  border-bottom: 8px solid #aa0601;
+}
+
+.pagination li:hover {
+  background-color: black;
+  color: white;
+}
+
+.pagination .current {
+  background-color: black;
+  color: white;
+}
+
+.shop-title {
+  border-left: 8px solid #aa0601;
+}

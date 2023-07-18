@@ -4,13 +4,369 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:ital,wght@0,400;0,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Castoro&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link href="../src/scss/output.css" rel="stylesheet" />
+    <link href="../src/scss/all.scss" rel="stylesheet" />
     <title>index</title>
   </head>
   <body>
-    <%- include('./layout/header'); -%>
+    <header>
+      <%- include('./layout/header'); -%>
+    </div>
+    <div class="banner h-[396px] md:h-[787px] text-right">
+      <div class="container">
+        <h1
+          class="text-[16px] md:text-[36px] lg:text-[54px] pt-[144px] md:pt-[296px] text-maroon-dark"
+        >
+          Promise-Desert 2020 早春系列
+        </h1>
+        <p
+          class="mb-[8px] text-[24px] md:text-[64px] lg:text-[96px] font-bold text-maroon-dark"
+        >
+          看得清，才能看得遠
+        </p>
+        <a
+          href="#"
+          class="md:text-[20px] py-[6px] px-[12px] inline-block text-white bg-maroon"
+          >我要購買</a
+        >
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="shop-intro bg-maroon-light">
+      <div class="container pb-[40px] md:pb-[80px]">
+        <h2
+          class="text-[24px] md:text-[48px] pt-[40px] md:pt-[80px] pb-[32px] md:pb-[24px] text-maroon-dark lg:text-5xl text-center font-bold"
+        >
+          用專業的心，做專業的事
+        </h2>
+        <ul class="intro md:flex-wrap md:flex md:gap-y-6 justify-between">
+          <li class="md:max-w-[48%] lg:max-w-[23%]">
+            <img
+              class="mx-auto"
+              src="../src/img/desktop/home-section2-1.png"
+              alt="特色1"
+            />
+            <p
+              class="text-center text-maroon-dark mt-4 mb-2 text-[24px] leading-9 font-bold"
+            >
+              單一價格
+            </p>
+            <p class="text-[16px] leading-6">
+              無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。
+            </p>
+          </li>
+          <li class="md:max-w-[48%] lg:max-w-[23%]">
+            <img
+              class="mx-auto"
+              src="../src/img/desktop/home-section2-2.png"
+              alt="特色2"
+            />
+            <p
+              class="text-center text-maroon-dark mt-4 mb-2 text-[24px] leading-9 font-bold"
+            >
+              20 分鐘即可取件
+            </p>
+            <p class="text-[16px] leading-6">
+              為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快
+              20 分鐘即可完成。
+            </p>
+          </li>
+          <li class="md:max-w-[48%] lg:max-w-[23%]">
+            <img
+              class="mx-auto"
+              src="../src/img/desktop/home-section2-3.png"
+              alt="特色3"
+            />
+            <p
+              class="text-center text-maroon-dark mt-4 mb-2 text-[24px] leading-9 font-bold"
+            >
+              安心售後服務
+            </p>
+            <p class="text-[16px] leading-6">
+              我們提供長達 120
+              天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。
+            </p>
+          </li>
+          <li class="md:max-w-[48%] lg:max-w-[23%]">
+            <img
+              class="mx-auto"
+              src="../src/img/desktop/home-sectioin2-4.png"
+              alt="特色4"
+            />
+            <p
+              class="text-center text-maroon-dark mt-4 mb-2 text-[24px] leading-9 font-bold"
+            >
+              關於鏡片
+            </p>
+            <p class="text-[16px] leading-6">
+              使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-    <h1 class="index-title">我是首頁</h1>
-    <img src="../assets/images/cat.jpg" style="width: 300px;" alt="cat">
+    <section class="glass-intro">
+      <div class="container py-[40px] md:py-[80px]">
+        <h2
+          class="pb-[48px] text-maroon-dark text-[24px] md:text-5xl text-center font-bold"
+        >
+          經典系列鏡框
+        </h2>
+        <ul class="flex-col lg:flex-row items-center lg:justify-between flex">
+          <li class="lg:max-w-[31%]">
+            <a href="#">
+              <img
+                src="../src/img/desktop/home-section3-1.png"
+                class="md:max-w-[31%] lg:max-w-[100%] mx-auto"
+                alt="系列1"
+              />
+              <h3
+                class="mt-2 text-maroon italic text-[48px] lg:text-5xl text-center font-bold"
+              >
+                OPTICAL
+              </h3>
+            </a>
+          </li>
+          <li class="lg:max-w-[31%]">
+            <a href="#">
+              <img
+                src="../src/img/desktop/home-section3-2.png"
+                class="md:max-w-[31%] lg:max-w-[100%] mx-auto"
+                alt="系列2"
+              />
+              <h3
+                class="mt-2 text-maroon italic text-[48px] lg:text-5xl text-center font-bold"
+              >
+                SUNGLASSES
+              </h3></a
+            >
+          </li>
+          <li class="lg:max-w-[31%]">
+            <a href="#">
+              <img
+                src="../src/img/desktop/home-section3-3.png"
+                class="md:max-w-[31%] lg:max-w-[100%] mx-auto"
+                alt="系列3"
+              />
+              <h3
+                class="mt-2 text-maroon italic text-[48px] lg:text-5xl text-center font-bold"
+              >
+                FUNCTIONAL
+              </h3></a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="co-branding">
+      <div class="container pb-[80px]">
+        <h2
+          class="pt-[40px] md:pt-[80px] mb-[24px] md:pb-[48px] text-white text-[24px] md:text-5xl text-center font-bold"
+        >
+          聯名設計鏡框
+        </h2>
+        <ul class="flex flex-col gap-y-6 lg:flex-row">
+          <li>
+            <a href="#"
+              ><img
+                class="block"
+                src="../src/img/desktop/home-section4-1.png"
+                alt="聯名1"
+              />
+              <h3
+                class="block text-maroon italic text-5xl text-center font-bold bg-white"
+              >
+                DOUBLE A+
+              </h3></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><img src="../src/img/desktop/home-section4-2.png" alt="聯名2" />
+              <h3
+                class="text-maroon italic text-5xl text-center font-bold bg-white"
+              >
+                YOUTH
+              </h3></a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="review">
+      <div class="container py-[80px]">
+        <h2
+          class="pt-[40px] md:pt-[80px] pb-[24px] md:pb-[48px] text-[24px] md:text-5xl text-maroon-dark text-center font-bold"
+        >
+          顧客推薦
+        </h2>
+        <ul
+          class="flex flex-col flex-wrap gap-y-4 md:gap-y-6 md:flex-row md:justify-between"
+        >
+          <li
+            class="rounded border border-border shadow-based md:max-w-[48%] lg:max-w-[23%]"
+          >
+            <img
+              class="mx-auto"
+              src="../src/img/desktop/home-section5-1.png"
+              alt="顧客1"
+            />
+            <div class="review-content p-[16px]">
+              <p class="text-left mb-2 text-[16px] leading-6">Jessy</p>
+              <p class="text-[16px] leading-6 h-18 pb-[48px]">
+                眼鏡品質優良，下次還會想來這邊購買！
+              </p>
+              <time class="text-time text-[14px] block" datetime="2021-06-20"
+                >2021/06/20</time
+              >
+            </div>
+          </li>
+          <li
+            class="rounded border border-border shadow-based md:max-w-[48%] lg:max-w-[23%]"
+          >
+            <img
+              class="mx-auto"
+              src="../src/img/desktop/home-section5-2.png"
+              alt="特色2"
+            />
+            <div class="review-content p-[16px]">
+              <p class="text-left mb-2 text-[16px] leading-6">凱倫</p>
+              <p class="text-[16px] leading-6 h-18 pb-[48px]">
+                做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！
+              </p>
+              <time class="text-time text-[14px] block" datetime="2021-04-18"
+                >2021/04/18</time
+              >
+            </div>
+          </li>
+          <li
+            class="rounded border border-border shadow-based md:max-w-[48%] lg:max-w-[23%]"
+          >
+            <img
+              class="mx-auto"
+              src="../src/img/desktop/home-section5-3.png"
+              alt="特色3"
+            />
+            <div class="review-content p-[16px]">
+              <p class="text-left mb-2 text-[16px] leading-6">悠悠</p>
+              <p class="text-[16px] leading-6 h-18 pb-[48px]">
+                謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！
+              </p>
+              <time class="text-time text-[14px] block" datetime="2020-12-25"
+                >2020/12/25</time
+              >
+            </div>
+          </li>
+          <li
+            class="rounded border border-border shadow-based md:max-w-[48%] lg:max-w-[23%]"
+          >
+            <img
+              class="mx-auto"
+              src="../src/img/desktop/home-section5-4.png"
+              alt="特色4"
+            />
+            <div class="review-content p-[16px]">
+              <p class="text-left mb-2 text-[16px] leading-6">Kyuan</p>
+              <p class="text-[16px] leading-6 h-18 pb-[48px]">
+                服務很好，品質沒有任何問題，非常喜歡。
+              </p>
+              <time class="text-time text-[14px] block" datetime="2020-10-31"
+                >2020/10/31</time
+              >
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="form bg-maroon-light">
+      <div class="container py-[80px]">
+        <h2 class="pb-[48px] text-maroon-dark text-5xl text-center font-bold">
+          聯絡我們
+        </h2>
+
+        <p class="md:w-[100%] lg:w-[636px] mx-auto my-0 text-[20px]">
+          我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。
+        </p>
+        <div class="text-[16px]">
+          <div class="mt-[24px] mb-[48px] md:w-[100%] lg:w-[636px] mx-auto">
+            <div class="grid grid-cols-1 gap-4">
+              <label class="block">
+                <span class="text-gray-700">姓名</span>
+                <input
+                  type="text"
+                  class="mt-2 w-[100%] bg-maroon-light"
+                  placeholder="陳小明"
+                />
+              </label>
+              <label class="block">
+                <span class="text-gray-700">聯絡電話</span>
+                <input
+                  type="tel"
+                  class="mt-2 w-[100%] bg-maroon-light"
+                  placeholder="0912-345-678"
+                />
+              </label>
+              <label class="block">
+                <span class="text-gray-700">電子郵件</span>
+                <input
+                  type="email"
+                  class="mt-2 w-[100%] bg-maroon-light"
+                  placeholder="example@email.com"
+                />
+              </label>
+
+              <label class="block">
+                <span class="text-gray-700">意見反應</span>
+                <textarea
+                  class="mt-2 block w-[100%] h-[136px] bg-maroon-light"
+                ></textarea>
+              </label>
+              <div class="block">
+                <div class="mt-2">
+                  <div>
+                    <label class="inline-flex items-center">
+                      <input
+                        type="checkbox"
+                        checked=""
+                        class="mt-2 bg-maroon-light m-1"
+                      />
+                      <span class=""
+                        >我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</span
+                      >
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          href="#"
+          class="bg-maroon block w-full md:w-[416px] py-[16px] text-center mx-auto text-white"
+          >確認送出</a
+        >
+      </div>
+    </section>
 
     <%- include('./layout/footer'); -%>
 

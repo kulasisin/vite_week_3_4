@@ -1,0 +1,24 @@
+@import "../grid.scss";
+
+.shop-title {
+  border-left: 8px solid #aa0601;
+}
+
+.shop-title > li {
+  width: 100%;
+}
+.shops-list > li {
+  @include pad() {
+    width: 49%;
+  }
+}
+
+.shops-list ul {
+  padding: 16px;
+}
+
+.shops-list ul {
+  @include pad() {
+    padding: 24px;
+  }
+}
